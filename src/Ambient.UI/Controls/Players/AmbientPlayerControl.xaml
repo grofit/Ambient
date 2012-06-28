@@ -1,0 +1,25 @@
+﻿<plane:Plane x:Class="Ambient.UI.Controls.Players.AmbientPlayerControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:Ambient.Controls;assembly=Ambient"
+    xmlns:plane="clr-namespace:Plane;assembly=Plane"
+    Height="200" Width="200">
+
+    <plane:Plane.Content>
+        <Border CornerRadius="5" BorderBrush="CornflowerBlue" BorderThickness="2" Background="White" Padding="5">
+            <DockPanel>
+                <ToolBar DockPanel.Dock="Bottom" Height="25">
+                    <Button x:Name="playButton" Content="Some Button"></Button>
+                </ToolBar>
+                <DockPanel DockPanel.Dock="Top">
+                    <Label x:Name="volumeLabel" Width="50" DockPanel.Dock="Left">Volume</Label>
+                    <!--<WindowsFormsHost>
+                <controls:VolumeControl></controls:VolumeControl>
+            </WindowsFormsHost>-->
+                </DockPanel>
+                <StackPanel></StackPanel>
+            </DockPanel>
+        </Border>
+    </plane:Plane.Content>
+
+</plane:Plane>

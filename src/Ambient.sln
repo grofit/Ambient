@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambient", "Ambient\Ambient.csproj", "{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAudio", "CoreAudio\CoreAudio.csproj", "{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambient.States", "Ambient.States\Ambient.States.csproj", "{A36973C8-89B2-4442-9A2C-AEF45733777C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Players.IrrKlang", "Players.IrrKlang\Players.IrrKlang.csproj", "{43B8E6BF-858D-4DE2-A343-81D36F07E393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Debug|x86.ActiveCfg = Debug|x86
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Debug|x86.Build.0 = Debug|x86
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Release|x86.ActiveCfg = Release|x86
+		{5B8718EA-5BF6-409B-BE10-1CC8CB411F47}.Release|x86.Build.0 = Release|x86
+		{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}.Debug|x86.Build.0 = Debug|Any CPU
+		{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10DC9C5-FB5E-4C6D-97CD-F1D61E086EAA}.Release|x86.ActiveCfg = Release|Any CPU
+		{A36973C8-89B2-4442-9A2C-AEF45733777C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36973C8-89B2-4442-9A2C-AEF45733777C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36973C8-89B2-4442-9A2C-AEF45733777C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A36973C8-89B2-4442-9A2C-AEF45733777C}.Debug|x86.Build.0 = Debug|Any CPU
+		{A36973C8-89B2-4442-9A2C-AEF45733777C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36973C8-89B2-4442-9A2C-AEF45733777C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36973C8-89B2-4442-9A2C-AEF45733777C}.Release|x86.ActiveCfg = Release|Any CPU
+		{43B8E6BF-858D-4DE2-A343-81D36F07E393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B8E6BF-858D-4DE2-A343-81D36F07E393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B8E6BF-858D-4DE2-A343-81D36F07E393}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43B8E6BF-858D-4DE2-A343-81D36F07E393}.Debug|x86.Build.0 = Debug|Any CPU
+		{43B8E6BF-858D-4DE2-A343-81D36F07E393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B8E6BF-858D-4DE2-A343-81D36F07E393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B8E6BF-858D-4DE2-A343-81D36F07E393}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
